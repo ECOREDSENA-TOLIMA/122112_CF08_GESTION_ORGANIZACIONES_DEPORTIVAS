@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Evaluación y acciones de mejora del evento',
+    descripcionCurso:
+      'En este componente se abordan elementos generales sobre la evaluación, con el fin de determinar el éxito del evento deportivo y posibles acciones correctivas y de mejora para futuros eventos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/float-1.png'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/float-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/float-3.svg'),
       },
     ],
   },
@@ -31,13 +36,28 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Evaluación y acciones de mejora del evento',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Metas y objetivo propuesto',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Balance del evento',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Desempeño de los equipos de trabajo',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Informe final ',
+            hash: 't_1_4',
           },
         ],
       },
@@ -45,14 +65,35 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Acciones de mejora del evento',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Identificar las necesidades de mejora',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Detectar las principales causas del problema ',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Definir objetivos de mejora ',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Seleccionar las acciones de mejora',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Planificación y control de las acciones de mejora',
+            hash: 't_2_5',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,31 +143,50 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Competencias sociales',
+      referencia:
+        'Project Management Institute. Guía de los fundamentos para la dirección de proyectos (Guía del PMBOK). ',
+      tipo: 'Libro',
+      link:
+        'https://www.sadamweb.com.ar/news/2016_08Agosto/Guia_Fundamentos_para_la_Direccion_de_Proyectos-4ta_Edicion.pdf?PMBOX=http://www.sadamweb.com.ar/news/2016_08Agosto/Guia_Fundamentos_para_la_Direccion_de_Proyectos-4ta_Edicion.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Evento',
+      significado:
+        'acontecimiento único, especial e irrepetible programado para satisfacer las necesidades de las partes interesadas.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Evento deportivo',
+      significado:
+        'acontecimiento único, especial e irrepetible relacionado con el sector del deporte, con diferentes fines desde la promoción deportiva, fomento de la práctica deportiva u otras organizaciones patrocinadoras que emplean el deporte simplemente como un instrumento para promocionar sus marcas.',
+    },
+    {
+      termino: 'Objetivos',
+      significado:
+        'abarcan aspectos técnicos, rentabilidad, rendimiento, calidad y entre otros elementos que el proyecto desee alcanzar.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'IPMA. International Project Management Association. (2006). <em>ICB Competence Baseline Versión 3.0 Zurich</em>, IPMA.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pantoja, A. (2009). <em>Presentación y defensa del trabajo de investigación. Manual básico para la realización de tesinas, tesis y trabajos de investigación.</em> Editorial EOS.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pinto, J. & Slevin, D. (1988). <em>Critical Success Factors Across the Project Life Cycle</em>. Project Management Journal.',
+      link: '',
+    },
+    {
+      referencia:
+        'PMI, Project Management Institute. (2008). <em>Organizational Project Management Maturity Model</em>. Project Management Institute.',
       link: '',
     },
   ],
@@ -151,10 +211,25 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Camilo Andrés Aramburo Parra',
+          cargo: 'Experto técnico',
+          centro: 'Regional Antioquia - Centro de Servicios de Salud',
+        },
+        {
+          nombre: 'Paola Andrea Quintero Aguilar',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Regional Bogotá - Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Revisora metodológica y pedagógica',
+          centro: 'Regional Bogotá - Centro de Diseño y Metrología ',
+        },
+        {
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Diseñadora y evaluadora instruccional',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica',
         },
       ],
     },
