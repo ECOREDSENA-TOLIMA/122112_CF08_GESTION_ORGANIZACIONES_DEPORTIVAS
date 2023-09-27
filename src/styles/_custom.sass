@@ -83,3 +83,154 @@
   p
     font-weight: bold
     text-align: center
+.accesibilidad
+  z-index: 3
+.lista-ul--color
+  li
+    border-bottom: 2px dotted #AFAFAF
+.imagen-decorativa-desktop
+  .img-infografica__content
+    .img-infografica__item
+      border-radius: 10px
+      width: 25.2%
+      height: 80px
+      .img-infografica__item__dot
+        background-color: transparent
+        &::before,&::after
+          display: none
+      .img-infografica__item__dot
+        display: none
+    .img-infografica__card
+      transform: none
+      .tarjeta
+        border-top-left-radius: 0px !important
+        border-bottom-left-radius: 0px !important
+        height: auto
+        min-height: 80px
+        font-size: 14px
+      &::before
+          content: ''
+          position: absolute
+          top: 0
+          left: 0
+          width: 18px
+          height: 79px
+          border-top-right-radius: 12px
+          border-bottom-right-radius: 12px
+      &:nth-last-child(5)
+        top: 0% !important
+        left: 51% !important
+        width: 49%
+        &::before
+          background-color: #2D54FE
+      &:nth-last-child(4)
+        top: 20.8% !important
+        left: 57.8% !important
+        width: 42%
+        &::before
+          background-color: #FFCA00
+      &:nth-last-child(3)
+        top: 43% !important
+        left: 64.6% !important
+        width: 35.5%
+        &::before
+          background-color: #FE502D
+      &:nth-last-child(2)
+        top: 65% !important
+        left: 57.8% !important
+        width: 42%
+        &::before
+          background-color: #FFCA00
+      &:nth-last-child(1)
+        left: 51% !important
+        width: 49%
+        &::before
+          background-color: #2D54FE
+    @media (max-width: 1400px)
+      .img-infografica__card
+        .tarjeta
+          border-radius: 12px !important
+          height: auto
+        &::before
+          height: 67px
+        &:nth-last-child(1)
+          &::before
+            top: auto
+            bottom: 0
+    @media (max-width: 1200px)
+      .img-infografica__card
+        &::before
+          height: 55px
+          width: 13px
+    @media (max-width: 991px)
+      .img-infografica__card
+        &::before
+          height: 40px
+          width: 11px
+.container-hover-cards
+  .card-hover
+    background-color: #D3D3D3
+    border-radius: 12px
+    margin-bottom: 1rem
+    position: relative
+    overflow: hidden
+    cursor: pointer
+    .header-card
+      display: flex
+      align-items: center
+      background-color: #2D54FE
+      border-radius: 12px
+      position: relative
+      z-index: 2
+      .img-card
+        background-color: #D3D3D3
+        min-width: 60px
+        min-height: 80px
+        margin-bottom: auto
+        display: flex
+        justify-content: center
+        align-items: center
+        border-top-left-radius: 10px
+        border-bottom-left-radius: 10px
+      p
+        padding: .5rem 1rem
+    .body-card
+      transition: all .1s linear
+      position: absolute
+      top: 50%
+      border-bottom-right-radius: 10px
+      border-bottom-left-radius: 10px
+      p
+        padding: 1rem
+    &:hover
+      overflow: visible
+      border-bottom-right-radius: 0
+      border-bottom-left-radius: 0
+      .body-card
+        top: 100%
+        background-color: #D3D3D3
+        z-index: 3
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 12px
+  &:hover    
+    .crd_hover_txt--body
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    width: 100%
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(255, 247, 230, 1) 
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
