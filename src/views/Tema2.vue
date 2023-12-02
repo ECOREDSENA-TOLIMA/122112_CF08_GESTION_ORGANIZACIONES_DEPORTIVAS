@@ -47,7 +47,7 @@
     #t_2_2.titulo-segundo.color-acento-botones
       h2 2.2 Detectar las principales causas del problema 
     p.mb-5(data-aos="fade-right") Cada problema u acción de mejora trae consigo múltiples causas, las cuales deberán ser identificadas y analizadas para su correcta gestión; un error frecuente es centrarse en los efectos del problema y no en sus causas. Por lo tanto, las acciones de mejora deberán identificar de donde provienen estos problemas para atacar de raíz y evitar que siga presentándose. A continuación, se presenta un ejemplo de posibles causas asociadas a acciones de mejora en eventos deportivos.
-
+    h3.mb-5 Deficiencias en el servicio al cliente
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4" data-aos="fade-left")
       .tarjeta.color-acento-contenido.p-4
         .row.justify-content-center.mb-3
@@ -188,7 +188,7 @@
     p.mb-5(data-aos="fade-right") Al seleccionar las acciones de mejora se deberá contar con el equipo de trabajo, tanto el líder del proyecto como los operadores. Se deberá optar por las acciones que sean efectivas para el control de las causas y reducción de los efectos de los problemas detectados, pero a su vez eficientes en materia de costo beneficio para el proyecto.
     separador
     #t_2_5.titulo-segundo.color-acento-botones
-      h2 Planificación y control de las acciones de mejora
+      h2 2.5 Planificación y control de las acciones de mejora
     p.mb-5 Para realizar la planificación se debe documentar el plan de acción, listando cada una de las acciones de mejora seleccionadas y asignando los tiempos, responsables, responsabilidades y recursos destinados para el cumplimiento de los objetivos de mejora. A continuación, su secuencia: 
 
     .container-100.py-4(

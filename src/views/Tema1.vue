@@ -81,10 +81,10 @@
           p.mb-0 Persona(s) u organizaciones que proveen y prestan servicios, productos para el desarrollo del evento. Generalmente esperan del evento, el incremento en ventas.
 
 
-    p.mb-5(data-aos="fade-right") Las distintas partes interesadas deben ser consultadas aplicando diferentes medios para conocer su opinión,-- como cuestionarios y encuestas. La evaluación del proyecto determinará qué tan exitoso fue el evento, pues el éxito se basará en la satisfacción de cada una de las partes interesadas mencionadas anteriormente. Además de esto se evalúan los siguientes factores:
+    p.mb-5(data-aos="fade-right") Las distintas partes interesadas deben ser consultadas aplicando diferentes medios para conocer su opinión, como cuestionarios y encuestas. La evaluación del proyecto determinará qué tan exitoso fue el evento, pues el éxito se basará en la satisfacción de cada una de las partes interesadas mencionadas anteriormente. Además de esto se evalúan los siguientes factores:
     .container-100.py-4.mb-5(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-1.svg')})`}"
-      style="background-repeat: no-repeat; background-position: left top; background-size: cover;"
+      style="background-repeat: no-repeat; background-position: left top; background-size: 100% auto;"
     )
       img.mx-auto.py-3(src="@/assets/curso/temas/tema1/img-5.svg" alt="Factores para la evaluación de evento, Cumplimiento del objetivo, Cumplimiento con el cronograma de actividades conforme al tiempo, calidad y recursos, Efectividad de las estrategias, Los resultados se cumplieron a satisfacción del cliente." style="max-width: 1030px" data-aos="fade-left")
 
@@ -146,7 +146,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema1/img-10.png", alt="alt")
+              img(src="@/assets/curso/temas/tema1/img-10.png", alt="Imagen decorativa text-center Estratégico")
           .crd_hover_txt--body(style="background-color: #2D54FE")
             h4.mb-3.text-white.text-center Estratégico
             p.mb-0.text-white Realizar la primera versión de la maratón de ciudad de Medellín 2022, posicionándola como una de las carreras más representativas de Suramérica
@@ -155,7 +155,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema1/img-11.png", alt="alt")
+              img(src="@/assets/curso/temas/tema1/img-11.png", alt="Imagen decorativa Táctico (mercadeo)")
           .crd_hover_txt--body(style="background-color: #FFCA00")
             h4.mb-3.text-center Táctico (mercadeo)
             p.mb-0 Establecer un plan de mercado que capte la masiva inscripción de corredores locales, nacionales e internacionales.
@@ -164,7 +164,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema1/img-12.png", alt="alt")
+              img(src="@/assets/curso/temas/tema1/img-12.png", alt="Imagen decorativa Operativo")
           .crd_hover_txt--body(style="background-color: #FE502D")
             h4.mb-3.text-center Operativo
             p.mb-0 Desarrollar un estudio de mercado de carreras de calle y corredores de maratón.
@@ -250,12 +250,12 @@
         caption(style="font-weight: normal") <b>Nota.</b> Adaptadas de la Guía PMBOK.
         thead
           tr(style="background-color: white")
-            th Indicador
-            th Meta esperada
-            th(colspan="3") Indicador
+            th Factor
+            th Competencia
+            th(colspan="3") Manifestación
         tbody
           tr
-            td.text-center(rowspan="3") Espectadores esperados en el evento.
+            td.text-center(rowspan="3") Consciencia de sí mismo
             td.text-center Consciencia emocional
             td(colspan="3")
               ul
