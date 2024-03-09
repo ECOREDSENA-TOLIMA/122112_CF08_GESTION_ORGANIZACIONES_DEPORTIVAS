@@ -189,13 +189,17 @@
     separador
     #t_2_5.titulo-segundo.color-acento-botones
       h2 2.5 Planificación y control de las acciones de mejora
-    p.mb-5 Para realizar la planificación se debe documentar el plan de acción, listando cada una de las acciones de mejora seleccionadas y asignando los tiempos, responsables, responsabilidades y recursos destinados para el cumplimiento de los objetivos de mejora. A continuación, su secuencia: 
+    p.mb-2 Para realizar la planificación se debe documentar el plan de acción, listando cada una de las acciones de mejora seleccionadas y asignando los tiempos, responsables, responsabilidades y recursos destinados para el cumplimiento de los objetivos de mejora. A continuación, su secuencia: 
 
     .container-100.py-4(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg-1.svg')})`}"
       style="background-repeat: no-repeat; background-position: left bottom; background-size: cover;"
     )
-      img.mx-auto.py-3(src="@/assets/curso/temas/tema2/img-14.png" alt="Secuencia para el cumplimiento de los objetivos de mejor: 1. Objetivo, 2. Acción de mejora, 3. Establecer un orden lógico teniendo en cuenta las actividades sucesoras y dependientes, 4. Asignar el tiempo y responsables para cada actividad, 5. Control del cumplimiento de las actividades estipuladas conforme a los recursos y tiempo." style="max-width: 1030px" data-aos="fade-left")
+      .col-12
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Plan de acción</i>
+        figure
+          img.mx-auto.py-3(src="@/assets/curso/temas/tema2/img-14.png" alt="En la Figura 2, se presentan las acciones que deben documentarse para implementar un plan de acción, incluyendo objetivos, acciones de mejora, orden lógico, responsabilidades y control de cumplimiento." style="max-width: 1030px" data-aos="fade-left")
 </template>
 
 <script>

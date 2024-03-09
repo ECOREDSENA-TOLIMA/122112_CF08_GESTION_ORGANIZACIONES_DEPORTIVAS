@@ -86,7 +86,11 @@
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-1.svg')})`}"
       style="background-repeat: no-repeat; background-position: left top; background-size: 100% auto;"
     )
-      img.mx-auto.py-3(src="@/assets/curso/temas/tema1/img-5.svg" alt="Factores para la evaluación de evento, Cumplimiento del objetivo, Cumplimiento con el cronograma de actividades conforme al tiempo, calidad y recursos, Efectividad de las estrategias, Los resultados se cumplieron a satisfacción del cliente." style="max-width: 1030px" data-aos="fade-left")
+      .col-12
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Factores a evaluar en un evento</i>
+        figure
+          img.mx-auto.py-3(src="@/assets/curso/temas/tema1/img-5.svg" alt="En la Figura 1 se presentan los factores más relevantes a tener en cuenta al evaluar un evento, como el cumplimiento del objetivo, el cumplimiento del cronograma, la efectividad de las estrategias y el cumplimiento de los resultados." style="max-width: 1030px" data-aos="fade-left")
 
     .d-flex.flex-wrap
       .col-lg-7.col-xl-8.pe-lg-4.order-2.order-lg-1(data-aos="fade-right")
@@ -192,8 +196,7 @@
     p.mb-5(data-aos="fade-right") Al realizar el balance del evento se evalúan aspectos generales que den una respuesta de la eficacia y efectividad. Para tal fin se pueden emplear indicadores de gestión, para medir y evaluar el cumplimiento de los objetivos planteados. En la tabla que se presenta a continuación, se encuentran algunos ejemplos de indicadores:
 
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
-      h5 Tabla 1
-      span Balance del evento
+      p.titulo.pb-0.mb-0 <b>Tabla 1. </b> <i>Balance del evento</i>
     .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
       table
         caption(style="font-weight: normal") <b>Nota.</b> Tomado de SENA (2021).
@@ -210,25 +213,25 @@
             td.text-center 100 personas
             td Espectadores que asistieron al evento.
             td.text-center 100 personas
-            td.text-center 100%
+            td.text-center 100 %
           tr
             td Costos presupuestados del evento
             td.text-center 10 millones de pesos
             td Costos efectuados en el evento
             td.text-center 10 millones de pesos
-            td.text-center 100%
+            td.text-center 100 %
           tr
             td Ingresos esperados en el evento
             td.text-center 15 millones de pesos
             td Ingresos percibidos en el evento
             td.text-center 15 millones de pesos
-            td.text-center 100%
+            td.text-center 100 %
           tr
             td % esperado de usuarios satisfechos con el evento
-            td.text-center 95%
+            td.text-center 95 %
             td % de usuarios satisfechos con el evento
-            td.text-center 97%
-            td.text-center Superó un 2%
+            td.text-center 97 %
+            td.text-center Superó un 2 %
     
     separador
     #t_1_3.titulo-segundo.color-acento-botones
@@ -243,8 +246,7 @@
       img.mx-auto.col-lg-5.col-xl-4.mb-4.my-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-14.png" style="max-width: 400px" data-aos="fade-left")
 
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
-      h5 Tabla 2
-      span Competencias personales
+      p.titulo.pb-0.mb-0 <b>Tabla 2. </b> <i>Competencias personales</i>
     .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
       table
         caption(style="font-weight: normal") <b>Nota.</b> Adaptadas de la Guía PMBOK.
@@ -457,8 +459,7 @@
                   p.ps-2.mb-0(data-aos="fade-left") Operar más desde la expectativa del éxito que desde el miedo al fracaso.
 
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
-      h5 Tabla 3
-      span Competencias sociales
+      p.titulo.pb-0.mb-0 <b>Tabla 3. </b> <i>Competencias sociales</i>
     .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
       table
         caption(style="font-weight: normal") <b>Nota.</b> Adaptadas de la Guía PMBOK.
@@ -538,8 +539,7 @@
                   p.ps-2.mb-0(data-aos="fade-left") Afrontar los prejuicios y la intolerancia.
     
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
-      h5 Tabla 4
-      span Habilidades sociales
+      p.titulo.pb-0.mb-0 <b>Tabla 4. </b> <i>Habilidades sociales</i>
     .tabla-a.color-acento-contenido.mb-5.col-xl-10.mx-auto(data-aos="fade-left")
       table
         caption(style="font-weight: normal") <b>Nota.</b> Adaptadas de la Guía PMBOK.
@@ -650,8 +650,7 @@
                   p.ps-2.mb-0(data-aos="fade-left") Cuidar del grupo y compartir méritos.
 
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
-      h5 Tabla 5
-      span Competencias comerciales
+      p.titulo.pb-0.mb-0 <b>Tabla 5. </b> <i>Competencias comerciales</i>
     .tabla-a.color-acento-contenido.mb-5.col-xl-10.mx-auto(data-aos="fade-left")
       table
         caption(style="font-weight: normal") <b>Nota.</b> Adaptadas de la Guía PMBOK.
@@ -850,13 +849,13 @@
 
         .tarjeta.color-secundario.p-4(x="13.8%" y="74.8%" numero="+" style="background-color: #F6F6F6")
           p.fw-bold Plan de juzgamiento: 
-          p.mb-0 el equipo define el plan de juzgamiento deportivo del evento.
+          p.mb-0 El equipo define el plan de juzgamiento deportivo del evento.
         .tarjeta.color-secundario.p-4(x="48.5%" y="74.8%" numero="+" style="background-color: #F6F6F6")
           p.fw-bold Acta de divulgación:
-          p.mb-0 el plan de juzgamiento es comunicado y divulgado al comité organizador del evento.
+          p.mb-0 El plan de juzgamiento es comunicado y divulgado al comité organizador del evento.
         .tarjeta.color-secundario.p-4(x="82.8%" y="74.8%" numero="+" style="background-color: #F6F6F6")
           p.fw-bold Correo electrónico: 
-          p.mb-0 se envía el plan de juzgamiento vía correo electrónico a deportistas, entrenadores y partes interesadas.
+          p.mb-0 Se envía el plan de juzgamiento vía correo electrónico a deportistas, entrenadores y partes interesadas.
 
     separador
     #t_1_4.titulo-segundo.color-acento-botones
@@ -899,6 +898,7 @@ export default {
   name: 'Tema1',
   components: { SlyderB },
   data: () => ({
+    mostrarIndicador: true,
     datosSlyder: [
       {
         titulo: '',
