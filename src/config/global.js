@@ -298,12 +298,12 @@ export default {
         },
         {
           nombre: 'Javier Mauricio Oviedo',
-          cargo: 'Evaluación de Contenidos Inclusivos y Accesibles',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Jorge Bustos Gómez',
-          cargo: 'Evaluación de Contenidos Inclusivos y Accesibles',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         // {
