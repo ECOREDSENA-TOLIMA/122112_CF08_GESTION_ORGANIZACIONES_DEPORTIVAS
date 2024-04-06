@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5(data-aos="fade-right") En resumen, la mejora en eventos implica una evaluación y acciones correctivas con metas claras. Se evalúa el desempeño, se identifican áreas de mejora, y se planifican y controlan acciones. Se documenta en un informe final. Un mapa conceptual visualiza este proceso.
+    p.mb-5(data-aos="fade-right") En resumen, la mejora en eventos implica una evaluación y acciones correctivas con metas claras. Se evalúa el desempeño, se identifican áreas de mejora, y se planifican y controlan acciones. Se documenta en un informe final. A continuación el mapa conceptual describe este proceso.
 
     .col-lg-10.col-xl-8.mb-5.mx-auto(data-aos="fade-left")
       figure
