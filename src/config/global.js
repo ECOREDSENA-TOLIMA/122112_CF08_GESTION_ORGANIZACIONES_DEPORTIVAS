@@ -143,7 +143,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'Desempeño de los equipos de trabajo',
+      tema: '1.3 Desempeño de los equipos de trabajo',
       referencia:
         'Project Management Institute. Guía de los fundamentos para la dirección de proyectos (Guía del PMBOK). ',
       tipo: 'Libro',
