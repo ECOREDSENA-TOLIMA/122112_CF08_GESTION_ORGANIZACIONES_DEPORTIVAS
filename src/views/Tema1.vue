@@ -7,7 +7,7 @@
         span 1
       h1 Evaluación y acciones de mejora del evento
     
-    p(data-aos="fade-right") Después de conocer temas asociados al diagnóstico, planeación y ejecución de eventos es importante llegar a la fase de la evaluación. Es preciso recordar que, un evento se debe considerar como un proyecto, el cual según la guía de fundamentos para la dirección de proyectos PMBOK se entiende como un esfuerzo temporal dirigido a generar un producto o servicio o resultado único. En el caso de un evento el resultado sería los productos o servicios dirigidos a los deportistas y espectadores.
+    p(data-aos="fade-right") Después de conocer temas asociados al diagnóstico, planeación y ejecución de eventos es importante llegar a la fase de la evaluación. Es preciso recordar que, un evento se debe considerar como un proyecto, el cual según la guía de fundamentos para la dirección de proyectos PMBOK se entiende como un esfuerzo temporal dirigido a generar un producto o servicio, o resultado único. En el caso de un evento, el resultado sería los productos o servicios dirigidos a los deportistas y espectadores.
 
     p.mb-5(data-aos="fade-right") Esta es la última fase del evento y determina el cumplimiento de los objetivos planteados dentro del tiempo y conforme a los recursos estipulados, por lo que, la evaluación del evento se realiza para:
 
@@ -618,7 +618,7 @@
                   p.ps-2.mb-0(data-aos="fade-left") Reconocer las necesidades de cambio.
                 li.d-flex.mb-2.pb-2.align-items-start
                   img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right")
-                  p.ps-2.mb-0(data-aos="fade-left") Desafiar el statu quo.
+                  p.ps-2.mb-0(data-aos="fade-left") Desafiar el #[em statu quo].
                 li.d-flex.mb-2.pb-2.align-items-start
                   img.mt-1(src="@/assets/curso/temas/decorador-ul.svg" style="max-width: 8px" data-aos="fade-right")
                   p.ps-2.mb-0(data-aos="fade-left") Promover el cambio. 
@@ -876,7 +876,7 @@
       .col-lg-7.col-xl-8.pe-lg-4.order-2.order-lg-1(data-aos="fade-right")
         p Según la parte interesada, la forma de divulgación de la información también cambiará. El nivel de detalle y comunicación formal de un informe escrito presentado a los propietarios del evento es diferente a la información puntual que desean conocer los clientes, usuarios del evento donde en algunos casos prefieren emplear redes sociales y correo electrónico; sin embargo, esto dependerá del tipo de evento, de la cantidad de participantes, del deporte y si este es de tipo recreativo o de alta competencia, entre otros factores que el líder y equipo de trabajo ejecutor del evento deberán identificar.
 
-        p.mb-0 Conforme a lo anterior, existen distintos tipos de informes, unos más generales otros con mayor nivel de detalle y esto dependerá como se mencionaba anteriormente de la parte interesada y de la información requerida. Por lo tanto, se deberá planificar el informe teniendo en cuenta los siguientes aspectos:
+        p.mb-0 Conforme a lo anterior, existen distintos tipos de informes, unos más generales, otros con mayor nivel de detalle y esto dependerá como se mencionaba anteriormente de la parte interesada y de la información requerida. Por lo tanto, se deberá planificar el informe teniendo en cuenta los siguientes aspectos:
       img.mx-auto.col-lg-5.col-xl-4.mb-4.my-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-15.png" style="max-width: 400px" data-aos="fade-left")
 
     .d-flex.flex-wrap

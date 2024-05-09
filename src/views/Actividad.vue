@@ -10,7 +10,7 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Identificación de Conceptos Clave y Estrategias de Mejora
+          h2 Identificación de conceptos clave y estrategias de mejora
         p.mb-4 Identificar y comprender los conceptos clave relacionados con la evaluación y las acciones de mejora en eventos deportivos para optimizar su calidad y eficiencia.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

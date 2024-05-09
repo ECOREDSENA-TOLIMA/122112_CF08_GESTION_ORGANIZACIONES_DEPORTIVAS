@@ -41,7 +41,7 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Metas y objetivo propuesto',
+            titulo: 'Metas y objetivos propuestos',
             hash: 't_1_1',
           },
           {
@@ -56,7 +56,7 @@ export default {
           },
           {
             numero: '1.4',
-            titulo: 'Informe final ',
+            titulo: 'Informe final del evento',
             hash: 't_1_4',
           },
         ],
@@ -160,7 +160,7 @@ export default {
     {
       termino: 'Evento deportivo',
       significado:
-        'acontecimiento único, especial e irrepetible relacionado con el sector del deporte, con diferentes fines desde la promoción deportiva, fomento de la práctica deportiva u otras organizaciones patrocinadoras que emplean el deporte simplemente como un instrumento para promocionar sus marcas.',
+        'acontecimiento único, especial e irrepetible, relacionado con el sector del deporte, con diferentes fines desde la promoción deportiva, fomento de la práctica deportiva u otras organizaciones patrocinadoras que emplean el deporte simplemente como un instrumento para promocionar sus marcas.',
     },
     {
       termino: 'Objetivos',
@@ -196,7 +196,7 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Equipo',
+          cargo: 'Líder Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
@@ -211,42 +211,42 @@ export default {
       autores: [
         {
           nombre: 'Camilo Andrés Aramburo Parra',
-          cargo: 'Experto temático',
-          centro: 'Regional Antioquia - Centro de Servicios de Salud',
+          cargo: 'Experto Temático',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Paola Andrea Quintero Aguilar',
-          cargo: 'Diseñadora instruccional',
-          centro: 'Regional Bogotá - Centro de Gestión Industrial',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Bogotá',
         },
         {
           nombre: 'Carolina Coca Salazar',
-          cargo: 'Revisora metodológica y pedagógica',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+          cargo: 'Revisora Metodológica y Pedagógica',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable equipo de desarrollo curricular',
+          cargo: 'Responsable Equipo de Desarrollo Curricular',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Julia Isabel Roberto',
-          cargo: 'Diseñadora y evaluadora instruccional',
+          cargo: 'Diseñadora y Evaluadora Instruccional',
           centro:
-            'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Gloria Lida Alzate Suarez',
-          cargo: 'Adecuación instruccional',
+          cargo: 'Adecuación Instruccional',
           centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
-          cargo: 'Metodología para la formación virtual',
+          cargo: 'Metodología para la Formación Virtual',
           centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Viviana Esperanza Herrera Quiñonez',
@@ -258,18 +258,6 @@ export default {
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
-        {
-          nombre: 'Yuly Andrea Rey Quiñonez',
-          cargo: 'Diseñador Web',
-          centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
-        },
-        {
-          nombre: 'Jhon Edinson Castañeda Oviedo',
-          cargo: 'Desarrollador Fullstack',
-          centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
-        },
         {
           nombre: 'Luis Fernando Botero Mendoza',
           cargo: 'Diseñador Web',
@@ -306,19 +294,6 @@ export default {
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
-        // {
-        //   nombre: 'Lina Marcela Pérez Manchego',
-        //   cargo: 'Validación de recursos educativos digitales',
-        //   centro:
-        //     'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
-        // },
-        // {
-        //   nombre: 'Leyson Fabian Castaño Pérez',
-        //   cargo:
-        //     'Validación de recursos educativos digitales y vinculación LMS',
-        //   centro:
-        //     'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
-        // },
       ],
     },
   ],
