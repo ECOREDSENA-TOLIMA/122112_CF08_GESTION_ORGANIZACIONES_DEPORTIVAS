@@ -202,7 +202,7 @@ export default {
         {
           nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -212,46 +212,46 @@ export default {
         {
           nombre: 'Camilo Andrés Aramburo Parra',
           cargo: 'Experto Temático',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Regional Antioquia - Centro de Servicios de Salud',
         },
         {
           nombre: 'Paola Andrea Quintero Aguilar',
           cargo: 'Diseñadora Instruccional',
-          centro: 'Centro de Gestión Industrial - Regional Bogotá',
+          centro: 'Regional Bogotá - Centro de Gestión Industrial',
         },
         {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Revisora Metodológica y Pedagógica',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable Equipo de Desarrollo Curricular',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Julia Isabel Roberto',
           cargo: 'Diseñadora y Evaluadora Instruccional',
           centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica',
         },
         {
           nombre: 'Gloria Lida Alzate Suarez',
           cargo: 'Adecuación Instruccional',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
           cargo: 'Metodología para la Formación Virtual',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Viviana Esperanza Herrera Quiñonez',
           cargo: 'Evaluación Instruccional',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -261,18 +261,18 @@ export default {
         {
           nombre: 'Luis Fernando Botero Mendoza',
           cargo: 'Diseñador Web',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Oscar Daniel Espitia Marin',
           cargo: 'Desarrollo Fullstack',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animación y Producción Audiovisual',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -282,17 +282,17 @@ export default {
         {
           nombre: 'Jorge Eduardo Rueda Peña',
           cargo: 'Evaluación de Contenidos Inclusivos y Accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Javier Mauricio Oviedo',
           cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Jorge Bustos Gómez',
           cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },

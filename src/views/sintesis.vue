@@ -9,7 +9,7 @@
         img(src="@/assets/curso/temas/sintesis.svg", alt="En la síntesis se abordan los temas más relevantes del componente formativo, incluyendo la evaluación del evento y las posibles acciones de mejora a implementar.")
     .row.justify-content-center(data-aos="fade-right")
       .col-auto
-        a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
+        a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
